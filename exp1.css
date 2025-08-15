@@ -1,0 +1,253 @@
+header{
+    height: 80vh;
+    width: 97vw;
+    margin: 1px;
+    background: url(../assets/dlc01.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+ }
+ /* .header{
+    border: 2px white ;
+ } */
+ .header .navbar, .header .navbar a{ 
+  color: white;
+  text-decoration:none;
+ }
+ .header .navbar .nav-item{
+    float: right;
+ }
+ .header .navbar .nav-items{
+   display: inline-block;
+   /* margin-top: 0px; */
+   padding: 1rem; 
+   font-size: larger; 
+ }
+ .header .main{
+   padding-left: 20rem;
+   font-size:x-large;
+   color: white;
+   margin-top: 10%;
+   transform: translateX(-150);
+   will-change: 1s ease-in forwards ;
+ }
+ .scroll{
+   color: white;
+   margin-top: 8%;
+   font-size: 17px;
+   padding: 3%;
+ }
+ .graphics{
+   float: right;
+   color: white;
+   border-radius: 10%;
+   top: 0px;
+ }
+ .headline h3{
+   line-height: 2rem;
+   margin: 150px 190px 250px 190px;
+  font-weight: 200;
+  justify-content: center;
+  font-size: 2rem;
+  color: rgb(58, 56, 56);
+ }
+ .first{
+   display: flex; 
+ justify-content: center;
+ }
+ .photo{
+  height: 600px;
+  width: 550px;
+ }
+ .text{
+ color: grey; 
+  float: left;
+  width: 500px;
+  font-size: 1.3rem;
+ }
+ 
+  .headline-1 {
+    font-size: 2rem;
+    margin-left: 140px;
+    margin-top: 100px;
+  }
+  .second{
+    display:flex;
+    height: 500px;
+   translate: (-50%, -50%);
+   
+  }
+  .images{
+    height: 500px;
+    width: 300px;
+   padding: 10px;
+  }
+  .abc{
+    font-size:xx-large;
+    opacity: 3;
+    width: 300px;
+    /* font-weight: 200; */
+    position: absolute;
+     margin-top: -300px; 
+    color: white;
+    margin-left: 30px;
+  }
+.small{
+  /* color: black;
+  /* position: relative; */
+  /* margin-top: -220px;
+  font-size: 1.5rem;
+  position: relative;
+  width: 320px;
+  
+  /* font-weight: 500; */
+  /* margin-left:25px ; */ 
+  font-size:x-large;
+    opacity: 3;
+    width: 320px;
+    height: 50%;
+    /* font-weight: 200; */
+    position: absolute;
+     margin-top: -220px; 
+    color: black;
+    margin-left: 30px;
+}
+.small-img{
+  height: 450px;
+  width: 380px;
+  row-gap: 3px;
+ scroll-padding-inline: 8px;
+}
+.middle{
+  background-color: rgb(59, 58, 58);
+  color: white;
+  margin-top: 200px;
+  width:100% ;
+height: 180vh;
+}
+.section{
+  display: flex;
+  gap: 100px;
+}
+.section h2{
+  margin-top: 10%;
+width: 700px;
+text-align: center;
+font-size: 2rem;
+}
+.section p{
+  margin-top:7% ;
+  width: 700px;
+  margin-right: 150px;
+  font-size: 1.1rem;
+}
+.middle h3{
+  margin-left: 580px;
+  margin-top: 80px;
+  display: border;
+  border:solid white 1px;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+}
+.about img{
+  height:70%;
+  width: 80%;
+  /* margin-left: 150px; */
+}
+.dlc img{
+ margin-top: 100px; 
+  height: 630px;
+  width: 100%;
+}
+.discovery{
+  display: flex;
+   width: 100%;
+   height: auto;
+   gap: 50px;
+   margin-top: 300px;
+   justify-content: center;
+}
+.big{
+  width: 450px;
+  height: 600px;
+  margin-left: 80px; 
+}
+ .large{
+  height: 320px;
+  width: 420px;
+  margin-top: 4%; 
+} 
+.discovery p{
+  width: 350px;
+  height: 250px;
+  font-size: large;
+}
+.cover{
+  display: flex;
+  width: 100%;
+  /* height: 1000px; */
+   gap: 30px; 
+  margin-top: 300px;
+  justify-content: center;
+}
+.text p{
+ font-size: large;
+ height: 200px;
+ width: 400px;
+}
+.text h2{
+  margin-top: 20%;
+}
+.dlc{
+  height: 80vh;
+  width: 97vw;
+  background: url(../assets/exp10.jpg);
+  text-align: center;
+  margin-top: 100px;
+}
+.dlc h1{
+  font-size: xx-large;
+  color: white;
+  }
+button{
+  opacity: 0.5;
+  border: 1px solid black;
+  height: 80px;
+  width: 150px;
+}
+
+.footer{
+  height: 300px;
+  width: 98vw;
+  float: right;
+  background-color: rgb(36, 30, 30);
+  padding-top: 6rem;
+  border: 20px grey; 
+  display: flex;
+  font-size: large;
+}
+.footer  a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+.footer .fotr , .footer .foot-items, .footer .abc, .footer .ijkl{
+  list-style: none;
+  padding: 5px;
+  font-size: large;
+}
+.footer .f{
+  width: 937px;
+  height: 300px;
+}
+.footer1{
+  display: flex;
+}
+.footer .fotr{
+  margin-left: 70%;
+ /* list-style: none; */
+} 
+.footer .fotr .abcd{
+  list-style: none;
+}

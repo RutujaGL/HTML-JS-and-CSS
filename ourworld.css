@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+.header{
+    border: 2px white ;
+    padding: 3rem;
+}
+.header .navbar a{ 
+  color: white;
+  text-decoration:none;
+}
+.header .navbar .nav-item{
+    float: right;
+}
+.header .navbar .nav-items{
+   display: inline-block;
+   margin-top: 0px;
+   padding: 1rem; 
+   font-size:large; 
+}
+/* .navbar::after{ 
+    content: "";
+    display: block;
+    clear: both;    
+ } */
+.header .logo{
+    color-scheme: black;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.images{ 
+    width: 100%;
+   color: white;
+}
+.small-images{
+    height: 130px;
+    width: 230px; 
+} 
+.footer{
+    height: 300px;
+    width: 98vw;
+    float: right;
+    background-color: rgb(36, 30, 30);
+   padding-top: 6rem;
+   border: 20px grey; 
+display: flex;
+font-size: large;
+}
+.footer  a{
+color: white;
+text-decoration: none;
+display: flex;
+}
+ .footer .fotr , .footer .foot-items, .footer .abc, .footer .ijkl{
+    list-style: none;
+    padding: 5px;
+    font-size: large;
+
+}
+  .footer .f{
+ width: 937px;
+ height: 300px;
+}
+.footer1{
+    display: flex;
+}
+.footer .fotr{
+   margin-left: 70%;
+   /* list-style: none; */
+} 
+.footer .fotr .abcd{
+    list-style: none;
+}
+/* .footer {
+    ;
+} */
+
+/* .footer.fotr{
+    margin-left: 45%;
+}*/
+/* .footer .footer2 {
+    float: right;
+    padding-right: 20rem; 
+ 
+} */
+/* .footer .footer2{
+    float: right; 
+    padding-right:10rem; 
+} */
+/* .footer::after{
+    content: "";
+    display: block;
+    clear: both;
+} */

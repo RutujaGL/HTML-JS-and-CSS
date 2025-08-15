@@ -1,0 +1,177 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    /* width: 100%; */
+    position: absolute;
+    top: 0;
+    left: 600px;
+    padding: 15px, 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 90px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    /* padding: 2px; */
+    /* top: 1px;
+    margin-top: 0%; */
+}
+.logo img {
+    position: absolute;
+    top: 0;
+}
+ h1{
+    position: absolute;
+    top: 180px;
+    color: white;
+   left: 260px;
+    font-size: 5rem;
+}
+ h2{
+    position: absolute;
+    top: 620px;
+    left: 180px;
+    color: white;
+    font-size: 20px;
+}
+.headline h3 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 160px;
+    color: grey;
+}
+.container {
+    justify-content: center;
+   display: flex;
+   gap: 150px;
+    margin-top: 10px;
+}
+.exp img {
+    height: 630px;
+    width: 550px;
+}
+.text h3 {
+    margin-top: 50px;
+    font-size: xx-large;
+    color: rgb(85, 85, 85);
+}
+.text p {
+    font-size: 19px;
+    color: grey;
+    width: 400px;
+}
+.parent-container {
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    background-color: aliceblue;
+    /* justify-content: center; */
+}
+.img-items {
+    margin-bottom:50px ;
+    width: 580px;
+    height: 580px;
+   margin-top: 100px;
+}
+.text-containdiv{
+    margin-top: 100px;
+    /* display: block;
+   background: white; */
+}
+
+/* .img-items img {
+    height: 800px;
+    width: 800px;
+    /* position: relative; */
+
+
+/* .text .containdiv{
+position: relative;
+} */
+/* .text {
+    box-sizing: border-box;
+    background: white;
+    height: 380px;
+    position: absolute;
+    margin-top: 180px;
+    width: 500px;
+} */
+.headline-1 {
+    background-image: url(../assets/exp05.jpg);
+    height: 500px;
+    top: 20px;
+}
+
+.headline-1 .font {
+    color: white;
+    margin: 30% 40% 300px 50%;
+    justify-content: center;
+}
+
+.headline-1 .btn-container-1 {
+    color: white;
+    justify-items: center;
+}
+
+.footer {
+    height: 300px;
+    width: 100vw;
+    float: right;
+    margin-left: 20;
+    background-color: rgb(36, 30, 30);
+    padding-top: 6rem;
+    border: 20px grey;
+    display: flex;
+    font-size: large;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+.footer .fotr,
+.footer .foot-items,
+.footer .abc,
+.footer .ijkl {
+    list-style: none;
+    padding: 5px;
+    font-size: large;
+}
+
+.footer .f {
+    width: 937px;
+    height: 300px;
+}
+
+.footer1 {
+    display: flex;
+}
+
+.footer .fotr {
+    margin-left: 70%;
+    /* list-style: none; */
+}
+
+.footer .fotr .abcd {
+    list-style: none;
+}
+h4{
+   
+   border-style:groove;
+   height: 40px;
+   width: 80px;
+   justify-self: center;
+     border-radius: 2px;
+}
